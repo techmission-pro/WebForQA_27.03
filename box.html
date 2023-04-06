@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+<body style="background-color: black;">
+    <div id="box" style="background: blue; position: absolute;
+    color: yellow; width: 100px; height: 100px; border-radius: 5px;
+    left: 0px; top: 0px; text-align: center;">Hello!</div>
+</body>    
+
+
+<script type="text/javascript">
+    let box = document.getElementById('box')  
+    let width = window.innerWidth
+    let height = window.innerHeight
+    let flag_x = 0
+    let flag_y = 0
+
+    function some_name() {
+          if (flag_x == 0) {
+             box.style.left = parseInt(box.style.left) + 1 + 'px'
+        } else {
+             box.style.left = parseInt(box.style.left) - 1 + 'px'
+        }
+          if (flag_y == 0) {
+             box.style.top = parseInt(box.style.top) + 1 + 'px'
+        } else {
+             box.style.top = parseInt(box.style.top) - 1 + 'px'
+        }
+          if (parseInt(box.style.left) + 100 > width) {
+             flag_x = 1
+        }
+          if (parseInt(box.style.left) < 0) {
+             flag_x = 0
+        }
+
+          if (parseInt(box.style.top) + 100 > height) {
+             flag_y = 1
+        }
+          if (parseInt(box.style.top) < 0) {
+            flag_y = 0
+        }
+      }
+     
+     let x = setInterval(some_name, 2)         
+    
+</script>
+  
+</html>
