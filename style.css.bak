@@ -2,6 +2,6 @@
   background-color: #ccc;
 }
   
-.div-block-6:nth-of-type(even):nth-child(-n+8) .text-block-5{
+ .text-block-5:nth-of-type(even):nth-child(-n+8) {
   color: blue;
 }
