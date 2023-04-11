@@ -33,3 +33,5 @@ document.querySelector('.calc-calculate') .addEventListener('click', function() 
  document.querySelector('[name="num2"]') .addEventListener('input' , function() {
     calculate();
  }); 
+
+
