@@ -436,5 +436,10 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 <!-- test commit --->
 <script src="./resources/calc.js"></script>
+<style>
+.calc-input{
+width: 60px;
+}
+</style>
 </body>
 </html>
