@@ -3,6 +3,7 @@
       data-wf-domain="www.techmission.pro" data-wf-page="63139ec6012d45b24f415465"
       data-wf-site="624aaff4dc2c3792204aaf07" lang="uk">
 <head> 
+<link rel="stylesheet" href="style.css">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <style>.wf-force-outline-none[tabindex="-1"]:focus {
         outline: none;
@@ -406,7 +407,13 @@
                 class="text-span-4 text-span-2">освоїти нову професію</span></h3></div>
         <div class="div-block-26">
             <div class="div-block-27" id="scroll-block">
-                <div class="w-embed">
+                <div class="calc">
+				<input type="text" name="num1" class="calc-input" />
+				+
+				<input type="text" name="num2" class="calc-input" />
+				<button type="button" class="calc-calculate">=</button>
+				<!--<span class="calc-result"></span>-->
+				<input type="text"readonly class="calc-input calc-result"/>
                 </div>
             </div>
             <div><img alt="QA" loading="lazy" src="resources/images/worker.png"></div>
@@ -428,5 +435,6 @@
 <!--[if lte IE 9]>
 <script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
 <!-- test commit --->
+<script src="./resources/calc.js"></script>
 </body>
 </html>
