@@ -1238,3 +1238,88 @@
   src: url(https://fonts.gstatic.com/s/robotoslab/v24/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+.div-block-12 {
+  flex-direction: row-reverse;
+
+}
+.text-blok-9 {
+  padding-left: 15px;
+}
+.image-22 {
+  margin-right: 10px;
+}
+
+.image-23 {
+  margin-right: 10px;
+}
+
+.image-24 {
+  margin-right: 10px;
+}
+
+.image-25{
+  margin-right: 10px;
+}
+
+.image-26 {
+  margin-right: 10px;
+}
+
+.image-27 {
+  margin-right: 10px;
+}
+
+.image-28 {
+  margin-right: 10px;
+}
+
+/*.emoji {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+
+  width: 24px;
+  height: 24px;
+}*/
+
+.div-block-6:nth-child(2n) {
+  background-color: #888;
+  color: blue;
+}
+
+.div-block-6:nth-child(2n) .text-blok-51 {
+  color: blue;
+}
+
+.div-block-6:nth-child(3n) .text-blok-5 {
+  color: red;
+}
+
+.text-block-51 {
+  font-family: Montserrat, sans-serif;
+  color: blue;
+}
+
+.text-block-5 {
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 0, 0);
+}
+
+.text-block-510 {
+  font-family: Montserrat, sans-serif;
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
