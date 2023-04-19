@@ -36,3 +36,13 @@ document.querySelector('[name="num1"]').addEventListener('input', function() {
 document.querySelector('[name="num2"]').addEventListener('input', function() {
 	calculate();
 });	
+/* fail js not */
+
+
+
+
+
+
+
+
+
